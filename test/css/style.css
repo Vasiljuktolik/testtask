@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Thin';
+    src: url('../fonts/HelveticaNeueCyr-Thin.eot');
+    src: url('../fonts/HelveticaNeueCyr-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueCyr-Thin.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar-brand{
+    height: 82px;
+    width: 284px;
+    border: 1px solid #18234b;   
+    font-size: 30pt;
+    font-family: 'Helvetica Neue Cyr Thin';
+    text-align: center;
+    margin-left: -15px;
+}
+.navbar-collapse{
+    margin-left: 100px;
+    
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 13pt;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #002258;    
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    border: 1px solid #fff;
+    background-color: rgba(255,255,255,.0);
+}
+.carousel-item .insert{
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    vertical-align: baseline;
+    z-index: 9999;
+    margin-top: -50vh;
+    
+}
+.insert h1{
+    font-size: 4vw;
+    color: #fff;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+.insert p{
+   font-size: 1vw; 
+   color: #fff;
+   padding-left: 30px;
+   font-family: 'Lato', sans-serif;
+  
+}
+.rows div{
+    height: 194px;
+    margin:17px;
+    background: #333;
+    width: 194px;
+}
+
+.products{
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+    font-size: 13pt;
+}
+div.insert-product{
+    position: absolute;
+    width: 194px;
+    height: 52px;
+    background: rgba(0,0,0,.6);   
+    z-index: 9999;
+    margin: 0;
+    margin-top: 141px; 
+    display: flex;  
+}
+.insert-product p{
+    text-transform: uppercase;
+    font-size: 10pt;
+    color: #fff;    
+    margin: auto;
+}
+hr{
+    width: 650px;
+}
+#portfolio .row div {    
+    margin: 10px; 
+    width: 545px; 
+     
+}
+div.insert-portfolio {
+    position: absolute;
+    height: auto;  
+     
+}
+.insert-portfolio p{
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: #fff; 
+    margin-top:100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+#footer{
+    height: 56px;
+    background: #011432;
+    margin: 40px 0 0;
+}
+
+#header{
+    height: 56px;
+    background: #011432;
+    
+}
